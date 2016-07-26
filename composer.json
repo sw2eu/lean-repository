@@ -1,0 +1,18 @@
+{
+	"name": "sw2eu/lean-repository",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Lukas Povoda",
+			"email": "lupo112@gmail.com"
+		}
+	],
+	"require": {
+		"nette/application": "~2.3",
+		"nette/di": "~2.3",
+		"tharos/leanmapper": "^3.1"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
